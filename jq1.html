@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>Code</title>
+
+<style>
+  p {
+    background: orange;
+    padding: 20px;
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+  
+  
+  $( "#toggleContent" ).click(function() {
+  
+    
+    $( "p" ).fadeToggle( "slow" );
+    
+  });
+
+});
+</script>
+<button id="toggleContent">Watch</button>
+<p>See!</p>
